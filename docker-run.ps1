@@ -1,0 +1,1 @@
+docker container run --name ebilltoy-1 --rm -it -p 4567:4567 ebilltoy

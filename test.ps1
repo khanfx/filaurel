@@ -3,7 +3,7 @@ echo "`n`n`n`n`n"
 function fmtjson($json)
 {
     # dn why we need the \ but it works
-    return $json -replace "\s+"," "  -replace '"', '\"'
+    return $json -replace "\s+"," "  -replace '"', '"'
 }
 
 

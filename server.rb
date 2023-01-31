@@ -33,7 +33,7 @@ end
 
 get "/ebills2" do
   db = SQLite3::Database.new "ebilltoy-main.sqlite3"
-  results = db.execute("select * from users")
+  results = db.execute("select * from ebills")
   results.to_json
 end
 
